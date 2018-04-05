@@ -1,0 +1,310 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #EFEFEF;
+	align-content: center;
+	width: 100%;
+	max-width: 1100px;
+	margin-left: 10%
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+    background-color: #349934;
+    margin-top: -10%;
+    width: 100%;
+	max-width: 1088px;   
+}
+
+
+li {
+	display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+a:hover {
+	color: black;
+
+
+}
+
+
+.minislide {
+	max-width:1200px; 
+	width: 100%;
+	height: 400px;
+	overflow:hidden; 
+	position:relative;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+
+}
+.minislide 
+img{ position:absolute; 
+	align-self: center;
+	animation:fling-minislide 20s infinite; 
+	opacity:0; 
+	width: 99%; 
+	height: auto;
+}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.minislide img:nth-child(1){animation-delay:0s;}
+.minislide img:nth-child(2){animation-delay:8s;}
+.minislide img:nth-child(3){animation-delay:16s;}
+.minislide img:nth-child(4){animation-delay:24s;}
+
+h1 {
+	font-size: 3em;
+	color: white;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+}
+
+.banner1 {
+	margin-top: -6.6%;
+	width: 100%;
+	max-width: 1088px;
+}
+
+
+article {
+	background-color: #606060;
+	margin-top: -0.3%;
+	width: 100%;
+	max-width: 1088px;
+	font-family: code light;
+	font-weight: 700;
+	text-shadow: 5px 5px 10px black;
+
+}
+
+.prod1 {
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-top: 12%;
+  margin-left: 1%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #349934;
+}
+
+.prod1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 135%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.prod2 {
+	position: relative;
+	width: 12%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 4%;
+
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-shadow:5px 5px 10px black;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #349934;
+}
+
+.prod2:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 135%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.prod3 {
+	position: relative;
+	width: 13%;
+	float: left;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #349934;
+}
+
+.prod3:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 135%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.prod4 {
+	position: relative;
+	width: 15%;
+	float: left;
+	margin-top: 7%;
+	margin-left: 9%;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #349934;
+}
+
+.prod4:hover .overlay4 {
+  opacity: 1;
+}
+
+.text4 {
+	color: white;
+  font-size: 135%;
+ 	position: absolute;
+  top: 50%;
+ 	left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.hl {
+	width: 100%;
+  margin-top: 33%;
+  max-width: 1088px;
+  border-top: 2%
+}
+
+.badge {
+	width: 7%;
+	margin-top: -10%;
+	padding-top: 20%;
+}
+
+.logo {
+	width: 10%;
+	float: right;
+	margin-right: 80%;
+	margin-top: -5%;
+}
+
+.section {
+	text-align: left;
+	margin-top: 15%;
+	margin-left: -92%;
+	margin-bottom: 60%;
+}
+
+.column {
+	float: left;
+
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   opacity: 10%;
+   text-align: center;
+   display: none;
+}
+
+
