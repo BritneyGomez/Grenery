@@ -286,15 +286,18 @@ article {
 
 .section {
 	text-align: left;
-	margin-top: 15%;
+	margin-top: 40%;
 	margin-left: -92%;
 	margin-bottom: 60%;
 }
 
-.column {
-	float: left;
-
+.logos {
+  float: left;
+  margin-left: 780%;
+  width: 100%;
+  margin-top: -150%;
 }
+
 
 footer {
    position: fixed;
